@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    margin: 0; /* Remover margens padrão do corpo da página */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: flex-start; /* Alinhar os itens no topo */
+    list-style: none; /* Remover marcadores de lista */
+}
+
+nav li.icon-container  {
+    margin-right: 0; /* Removido o valor negativo */
+    margin-top: 0; /* Removido o valor negativo e mantido 0 */
+    text-align: center;
+}
+
+a img {
+    width: 2px; /* Largura do ícone */
+    margin-right: 2px; /* Espaçamento à direita do ícone */
+}
+
+a p {
+    text-align: center; /* Alinhar o texto ao centro */
+    margin-top: 0px; /* Adicione um espaçamento entre o ícone e o texto */
+}
+
+section.content {
+    padding: 80px; /* Adicionar espaço para evitar que o conteúdo se sobreponha à barra de navegação */
+}
